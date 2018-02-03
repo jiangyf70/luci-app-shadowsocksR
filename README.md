@@ -59,7 +59,7 @@ OpenWrt LuCI for ShadowsocksR-libev
 配置
 ---
 
-软件包的配置文件路径: `/etc/config/shadowsocksr`   
+软件包的配置文件路径: `/etc/config/ssrr`   
 
 一般情况下，只需填写服务器IP或者域名，端口，密码，加密方式，混淆，协议即可使用默认的只能模式科学上网，兼顾国内外分流。无需其他复杂操作
 
@@ -72,7 +72,7 @@ OpenWrt LuCI for ShadowsocksR-libev
 tar xjf OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2.tar.bz2
 cd OpenWrt-SDK-ar71xx-*
 # Clone 项目
-git clone https://github.com/AlexZhuo/luci-app-shadowsocksR.git package/luci-app-shadowsocksR
+git clone https://github.com/jiangyf70/luci-app-shadowsocksR.git package/luci-app-shadowsocksR
 # 编译 po2lmo (如果有po2lmo可跳过)
 pushd package/luci-app-shadowsocksR/tools/po2lmo
 make && sudo make install
